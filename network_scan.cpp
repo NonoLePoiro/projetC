@@ -7,7 +7,7 @@ using namespace std;
 
 void analyse_plage_reseau() {
     string ip_range;
-    cout << "Entrez la plage IP à analyser (ex: 192.168.1.0/24) : ";
+    cout << "Entrez la plage IP à analyser : ";
     cin >> ip_range;
 
     string command = "nmap -sP " + ip_range;
